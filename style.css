@@ -1,0 +1,342 @@
+/* --global color */
+:root {
+  --primary-color: #a82c48;
+  --secondary-color: #43121d;
+  --third-color: #f98169;
+  --white-color: #fff;
+  --text-color: #555;
+  --text-grey: #999;
+  --black-color: #000;
+}
+.bts-row {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:active,
+:hover :focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+}
+a:hover {
+  text-decoration: none !important;
+}
+a:hover {
+  color: var(--primary-color);
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 100% !important;
+  font-weight: 400 !important;
+}
+/* --custom css design-- */
+h1 {
+  font-size: 3rem !important;
+  font-weight: 900 !important;
+  margin-bottom: 3rem !important;
+  color: var(--secondary-color);
+}
+h2 {
+  font-weight: 700 !important;
+  font-size: 2.25rem !important;
+  text-transform: capitalize !important;
+  color: var(--secondary-color);
+  line-height: 3rem !important;
+}
+h4 {
+  color: var(--secondary-color) !important;
+  text-transform: capitalize !important;
+  font-size: 18px important;
+  font-weight: 800 !important;
+  margin-bottom: 0.5rem !important;
+}
+h5 {
+  color: var(--primary-color) !important;
+  text-transform: capitalize !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 0.5rem !important;
+}
+p {
+  font-size: 1rem !important;
+  color: var(--text-color);
+  font-weight: 400 !important;
+  line-height: 1.75rem !important;
+  letter-spacing: 1px !important;
+}
+.main-button {
+  display: inline-block !important;
+  padding: 0.625rem 1.875rem !important;
+  line-height: 1.5625rem;
+  background-color: var(--primary-color) !important;
+  border: 0.1875 solid var(--primary-color) !important;
+  color: var(--white-color) !important;
+  font-size: 0.9375rem !important;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+  box-sizing: 0px 2px 10px -1px rbg(0 0 / 19%) !important;
+}
+.white-button {
+  padding: 0.625rem 1.875rem !important;
+  line-height: 25px !important;
+  background-color: var(--white-color) !important;
+  border: 0.1875rem solid var(--white-color) !important;
+  color: var(--text-color) !important;
+  font-size: 0.9375rem !important;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+  box-shadow: 0px 0px 10px black;
+}
+.main-button:hover {
+  background-color: transparent !important;
+  color: var(--primary-color) !important;
+  border: 2px solid var(--primary-color) !important;
+}
+.white-button:hover {
+  background-color: transparent !important;
+  color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+.wrapper {
+  padding-top: 8.25rem !important;
+  padding-bottom: 8.25rem !important;
+}
+.text-content {
+  width: 70% !important;
+  margin: auto !important;
+}
+.counter-section h2,
+.testimonial-section h2,
+.book-food-text h2 {
+  color: var(--white-color) !important;
+}
+/* header deisgn */
+.navigation-wrap {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  background-color: var(--white-color);
+  opacity: 0.9 !important;
+}
+.navigation-wrap .nav-item {
+  padding: 0 0.625rem;
+}
+
+.navbar-toggler:focus {
+  outline: unset;
+  border: unset;
+  box-shadow: none;
+}
+.nav-link {
+  font-size: 0.9375rem !important;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+}
+.navigation-wrap .main-btn {
+  padding: 0.3125rem;
+  box-shadow: none;
+  margin-left: 0.625rem;
+}
+.navigatiom-wrap .scroll-on {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--white-color);
+  box-sizing: 0 0.1275rem 1.75rem 0 rgb(0, 0, 0, 0.9);
+  transition: all 0.15s ease-in-out;
+}
+
+/* --top-banner-design */
+.top-banner {
+  width: 100% !important;
+  background: url(./assets/images/images/bg/bg-1.jpg) no-repeat center;
+  background-size: cover;
+  padding: 16.875rem 0 9.375rem;
+}
+/* --counter design-- */
+.counter-section {
+  background-color: var(--primary-color);
+  padding: 2.5rem 0;
+}
+.counter-section p {
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+/* --section 3 about section */
+
+.about-section {
+  background: var(--white-color) !important;
+}
+.about-section .card,
+.about-section .card img {
+  border-radius: 0.625rem !important;
+}
+.about-section {
+  padding-left: 2rem !important ;
+}
+/* --food types section  */
+.food-type {
+  padding-top: 6.25rem !important;
+}
+.food-type ul li {
+  font-size: 1rem !important;
+  color: var(--text-color) !important;
+  line-height: 32px !important;
+  position: relative !important;
+  margin-left: 30px !important;
+}
+.food-type ul li::before {
+  position: absolute !important;
+  left: 2.1875rem !important;
+  color: var(--primary-color) !important;
+  font-size: 1.25rem !important;
+  font-family: "font Awesome 5 free";
+  /* content: "/f00c"; */
+  display: inline-block !important;
+  padding-right: 3px !important ;
+  vertical-align: middle !important;
+  font-weight: 900 !important;
+}
+/* --story section */
+.story-section {
+  width: 100% !important;
+  height: 28.125rem !important;
+  background: url(./assets/images/images/bg/bg-2.jpg) no-repeat center !important;
+  background-size: cover !important;
+  padding-top: 100px !important;
+  text-align: center !important;
+}
+.story-section h2 {
+  color: var(--primary-color);
+}
+/* --explore-food section deign */
+.explore-foods .card {
+  border: none !important;
+  background-color: transparent !important;
+  border-radius: 0.9375rem !important;
+}
+.explore-foods .card img {
+  border-radius: 0.9375rem !important;
+  object-fit: cover !important;
+}
+.explore-foods .card span {
+  display: block !important;
+  font: 1.5rem !important;
+  font-weight: 700 !important;
+  color: var(--primary-color) !important;
+  padding-bottom: 1rem !important;
+  border-bottom: 0.0625rem solid #fff;
+}
+.expolore-foods .card span del {
+  color: var(--text-grey) !important;
+  margin-left: 0.5rem !important;
+}
+/* --testimonial-- */
+.testimonial-section {
+  background-color: var(--primary-color) !important;
+}
+.testimonial-section .carousel-item {
+  margin-top: 3rem !important;
+  padding: 10rem 3.125rem !important;
+  background-color: white !important;
+  border-radius: 0.9375rem !important;
+  text-align: center !important;
+}
+.testimonial-section .carousel-item .carousel-caption img {
+  max-width: 5rem !important;
+  border-radius: 50% !important;
+  padding: 0.3125rem !important;
+}
+.testimonial-section .carousel-item .carousel-caption p {
+  font-size: 1.3125rem !important;
+  line-height: 2.0625rem !important;
+  padding: 0 11% 0.625rem !important;
+}
+.testimonial-section .carousel-indicators {
+  bottom: -2.8125rem !important;
+}
+.testimonial-section .carousel-indicators button {
+  width: 15px !important;
+  height: 15px !important;
+  outline: none !important;
+  border-radius: 50% !important;
+  border: none !important;
+  margin-right: 1rem !important;
+  opacity: 0.2 !important;
+}
+.testimonial-section .carousel-indicators button.active {
+  opacity: 1 !important;
+}
+/* --faq section-- */
+.faq h4 span {
+  color: var(--primary-color) !important;
+  font-size: 1.875rem !important;
+  margin-right: 0.3125rem !important;
+}
+/* --book food-- */
+.book-food {
+  width: 100% !important;
+  background: url(./assets/images/images/bg/bg-3.jpg) no-repeat center;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-position: 0.719125px !important;
+  padding: 4.375rem !important;
+}
+/* -newsletter */
+.newsletter {
+  width: 55% !important;
+  margin: 0 auto !important;
+}
+.newsletter .form-control {
+  height: 3.225rem !important;
+  padding: 0.125rem !important;
+  font-size: 0.875rem !important;
+  width: 100% !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  border: 0.1875rem solid var(--text-grey) !important;
+  color: var(--black-color);
+  font-weight: 700 !important;
+}
+.newsletter .form-control:hover,
+.newsletter .form-control:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: var(--primary-color) !important;
+}
+/* --footer section-- */
+.footer {
+  background: var(--primary-color) !important;
+}
+.footer .footer-link {
+  font-size: 1rem !important;
+  color: var(--white-color) !important;
+  padding: 0 1.875rem !important;
+  text-decoration: none !important;
+}
+.footer .footer-link a:hover {
+  color: var(--white-color) !important;
+}
+.footer a i {
+  font-size: 1.5rem !important;
+  color: var(--white-color) !important;
+  padding: 0 1rem !important;
+}

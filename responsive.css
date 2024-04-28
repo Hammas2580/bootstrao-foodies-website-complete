@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+  .story-section {
+    height: auto !important;
+    padding: 3rem 0;
+    width: 100% !important;
+  }
+}
+/* --testimonial section */
+@media (max-width: 991px) {
+  .testimonial-section .carousel-item {
+    padding: 11rem 3.125rem !important;
+  }
+}
+@media (max-width: 330px) {
+  .testimonial-section .carousel-item {
+    padding: 11rem 3.125rem !important;
+  }
+}
+/* mewsletter */
+@media (max-width: 767px) {
+  .newsletter {
+    width: 75% !important;
+  }
+  .newsletter .main-button {
+    width: 100% !important;
+    margin-top: 1rem !important ;
+  }
+}
+/* -footer setion */
+@media (max-width: 767px) {
+  .footer .foooter-link,
+  .footer a i {
+    padding: 0 0.7rem !important;
+  }
+}
